@@ -1,0 +1,119 @@
+{
+  "High_CO_vs_Stoich": {
+    "conditions": {
+      "Gas_Flow_CFM": {
+        "above": 450,
+        "below": 550
+      },
+      "Feed_End_O2": {
+        "above": 1.0,
+        "below": 2.0
+      },
+      "CO_Stack_ppm": {
+        "above": 1000
+      }
+    },
+    "message": "CO is high despite near\u2011stoichiometric air flow \u2192 check burner position",
+    "cause": "Normal flow & O\u2082 but elevated CO",
+    "impact": "Incomplete combustion, burner misalignment"
+  },
+  "CaCO3_OutOfRange": {
+    "conditions": {
+      "CaCO3": {
+        "below": 92,
+        "above": 97
+      }
+    },
+    "message": "CaCO3 out of spec range (92\u201397% dry wt)",
+    "cause": "CaCO3 composition off-range",
+    "impact": "Product quality impact"
+  },
+  "MgO_OutOfRange": {
+    "conditions": {
+      "MgO": {
+        "below": 0.4,
+        "above": 1.6
+      }
+    },
+    "message": "MgO out of spec range (0.4\u20131.6% dry wt)",
+    "cause": "MgO composition off-range",
+    "impact": "Product quality impact"
+  },
+  "SiO2_OutOfRange": {
+    "conditions": {
+      "SiO2": {
+        "below": 0.1,
+        "above": 1.0
+      }
+    },
+    "message": "SiO2 out of spec range (0.1\u20131.0% dry wt)",
+    "cause": "SiO2 composition off-range",
+    "impact": "Product quality impact"
+  },
+  "Al2O3_OutOfRange": {
+    "conditions": {
+      "Al2O3": {
+        "below": 0.05,
+        "above": 0.4
+      }
+    },
+    "message": "Al2O3 out of spec range (0.05\u20130.4% dry wt)",
+    "cause": "Al2O3 composition off-range",
+    "impact": "Product quality impact"
+  },
+  "Fe2O3_OutOfRange": {
+    "conditions": {
+      "Fe2O3": {
+        "below": 0.01,
+        "above": 0.4
+      }
+    },
+    "message": "Fe2O3 out of spec range (0.01\u20130.4% dry wt)",
+    "cause": "Fe2O3 composition off-range",
+    "impact": "Product quality impact"
+  },
+  "P2O5_OutOfRange": {
+    "conditions": {
+      "P2O5": {
+        "below": 0.2,
+        "above": 1.4
+      }
+    },
+    "message": "P2O5 out of spec range (0.2\u20131.4% dry wt)",
+    "cause": "P2O5 composition off-range",
+    "impact": "Product quality impact"
+  },
+  "Na2O_OutOfRange": {
+    "conditions": {
+      "Na2O": {
+        "below": 0.5,
+        "above": 1.6
+      }
+    },
+    "message": "Na2O out of spec range (0.5\u20131.6% dry wt)",
+    "cause": "Na2O composition off-range",
+    "impact": "Product quality impact"
+  },
+  "K2O_OutOfRange": {
+    "conditions": {
+      "K2O": {
+        "below": 0.04,
+        "above": 0.12
+      }
+    },
+    "message": "K2O out of spec range (0.04\u20130.12% dry wt)",
+    "cause": "K2O composition off-range",
+    "impact": "Product quality impact"
+  },
+  "SO3_OutOfRange": {
+    "conditions": {
+      "SO3": {
+        "below": 0.3,
+        "above": 2.5
+      }
+    },
+    "message": "SO3 out of spec range (0.3\u20132.5% dry wt)",
+    "cause": "SO3 composition off-range",
+    "impact": "Product quality impact"
+  }
+}
